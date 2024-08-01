@@ -1,0 +1,216 @@
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#sec3 {
+    width: 90%;
+    margin: auto;
+    background-color: white;
+    padding-bottom: 2rem; 
+}
+
+#sec3 h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    padding-top: 10rem;
+    color: black;
+    padding-left: 3rem;
+    text-align: center; 
+}
+
+.order1 {
+    font-weight: bold;
+    border: 1px solid transparent;
+    background-color: rgb(187, 70, 70);
+    padding: 1rem;
+    color: white;
+    width: 250px;
+    border-radius: 20px;
+    font-size: 1rem;
+    margin: 8rem auto 0; 
+    display: block; 
+}
+
+#sec3 header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.imgnew img {
+    height: 100%;
+    width: 100%;
+}
+
+.sewarr {
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; 
+    padding: 20px;
+}
+
+.araf {
+    margin: auto;
+    padding-top: 4rem;
+}
+
+.araf a {
+    text-decoration: none;
+}
+
+.araf .sewarr div {
+    background-position: center;
+    background-size: cover;
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+    padding-top: 150px;
+    width: 350px;
+    height: 350px;
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: white;
+}
+
+.araf .sewarr .img1 { background-image: url(../images/f4.jpg); }
+.araf .sewarr .img2 { background-image: url(../images/f5.jpg); }
+.araf .sewarr .img3 { background-image: url(../images/f6.jpg); }
+.araf .sewarr .img4 { background-image: url(../images/f7.jpg); }
+.araf .sewarr .img5 { background-image: url(../images/f8.jpg); }
+.araf .sewarr .img6 { background-image: url(../images/f9.jpg); }
+.araf .sewarr .img7 { background-image: url(../images/f2.jpg); }
+.araf .sewarr .img8 { background-image: url(../images/f3.jpg); }
+
+.parent {
+    width: 100%;
+    max-width: 400px; 
+    text-align: center;
+    margin: 20px auto; 
+}
+
+.imgicon, .imgicon3 {
+    font-size: 50px;
+    color: black;
+    width: 100px;
+    height: 100px;
+    margin: auto;
+    padding-top: 5%;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.imgicon:hover i, .imgicon3:hover i {
+    color: yellow;
+}
+
+.imgicon3:hover i {
+    color: red;
+}
+
+.parent h2 {
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+#sec3 .ab {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; 
+}
+
+/* Media Queries */
+@media (max-width: 1200px) {
+    #sec3 h1 {
+        font-size: 2rem;
+    }
+
+    .order1 {
+        width: 200px;
+        font-size: 0.875rem;
+    }
+
+    .araf .sewarr div {
+        width: 300px;
+        height: 300px;
+        font-size: 1.25rem;
+    }
+
+    .parent {
+        max-width: 300px;
+    }
+}
+
+@media (max-width: 768px) {
+    #sec3 h1 {
+        font-size: 1.75rem;
+    }
+
+    .order1 {
+        width: 180px;
+        font-size: 0.75rem;
+    }
+
+    .araf .sewarr div {
+        width: 250px;
+        height: 250px;
+        font-size: 1rem;
+    }
+
+    .parent {
+        max-width: 250px;
+    }
+
+    .imgicon, .imgicon3 {
+        font-size: 40px;
+        width: 80px;
+        height: 80px;
+    }
+
+    .parent h2 {
+        font-size: 1.25rem;
+    }
+}
+
+@media (max-width: 480px) {
+    #sec3 h1 {
+        font-size: 1.5rem;
+    }
+
+    .order1 {
+        width: 150px;
+        font-size: 0.625rem;
+    }
+
+    .araf .sewarr div {
+        width: 200px;
+        height: 200px;
+        font-size: 0.875rem;
+        margin: 10px;
+    }
+
+    .parent {
+        max-width: 200px;
+    }
+
+    .imgicon, .imgicon3 {
+        font-size: 30px;
+        width: 60px;
+        height: 60px;
+    }
+
+    .parent h2 {
+        font-size: 1rem;
+    }
+
+    #sec3 header {
+        padding: 1rem;
+    }
+}
+
